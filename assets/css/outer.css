@@ -1,0 +1,121 @@
+
+.instr-main__outer{
+	z-index: 9;
+	padding-left: 280px;
+	flex: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+.instr-main-outer__inner{
+	padding: 30px 30px 0;
+    flex: 1;
+}
+
+.outer-page__title{
+    background: rgba(255,255,255,.45);
+    padding: 30px;
+    margin: -30px -30px 30px;
+    position: relative;
+}
+
+.page-title__wrapper{
+	position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.page-title__heading{
+    font-size: 1.25rem;
+    font-weight: 400;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.page-title__subheading{
+	padding: 3px 0 0;
+    font-size: .88rem;
+    opacity: .6;
+}
+
+.instr-card{
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(26,54,126,.125);
+    border-radius: 0.25rem;
+
+	box-shadow: 0 0.46875rem 2.1875rem rgba(4,9,20,.03), 0 0.9375rem 1.40625rem rgba(4,9,20,.03), 0 0.25rem 0.53125rem rgba(4,9,20,.05), 0 0.125rem 0.1875rem rgba(4,9,20,.03);
+    border-width: 0;
+}
+
+.card__scan{
+	padding: 30px;
+}
+
+.card-scan__heading{
+	font-size: 4rem;
+}
+
+.card-scan__subheading span{
+	font-size: 0.8rem;
+	border-radius: 30%;
+}
+
+.card-scan__subheading{
+	font-size: 0.8rem;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.instr-card__header{
+	text-transform: uppercase;
+    color: rgba(13,27,62,.7);
+    font-weight: 700;
+    font-size: .88rem;
+
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(26,54,126,.125);
+}
+
+.instr-card__title{
+	display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+/*    text-transform: capitalize;*/
+}
+
+.instr-no-gutters{
+	margin-right: 0;
+    margin-left: 0;
+}
+
+.instr-outer__image{
+	height: auto;
+	width: 100%;
+	background-size: contain;
+}
+
+.instr_scan_icon{
+	font-size: 1.7rem;
+	background-color: #3ac47d;
+	color: #fff;
+	border-radius: 50%;
+	padding: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .instr-main__outer{
+  	padding-left: 0;
+  }
+}
